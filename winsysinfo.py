@@ -35,7 +35,7 @@ print("系统:",system.Caption)
 print("CPU型号:",cpu.Name.strip())
 print("主板:",board.SerialNumber.strip())
 for mem in c.Win32_PhysicalMemory():
-    print("内存插槽",memory_index,"容量:",int(memory.Capacity)/1048576,"M")
+    print("内存插槽",memory_index,"容量:",convertFileSize(int(memory.Capacity)))
     memory_index +=1
 print("显卡:",vedio.Name.strip())
 print("硬盘型号:",disk.Model.strip() ,"硬盘大小:",convertFileSize(int(disk.Size)),"硬盘接口:",disk.InterfaceType)
