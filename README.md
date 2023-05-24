@@ -3,8 +3,8 @@
 ### ping_check
 用于检测到目标站点的延迟，丢包，抖动，每分钟ping20次，每分钟生成一次结果到目标文件，按天进行汇总
 ### winsysinfo
+用于获取windows的信息,执行后打印出来信息如下：
 ```python
-用于获取windows的信息
 型号: LENOVO_MT_20U2_BU_Think_FM_ThinkPad L14 Gen 1
 系统: Microsoft Windows 10 企业版 LTSC
 CPU型号: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
