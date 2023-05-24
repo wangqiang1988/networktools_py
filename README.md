@@ -3,6 +3,7 @@
 ### ping_check
 用于检测到目标站点的延迟，丢包，抖动，每分钟ping20次，每分钟生成一次结果到目标文件，按天进行汇总
 ### winsysinfo
+```python
 用于获取windows的信息
 型号: LENOVO_MT_20U2_BU_Think_FM_ThinkPad L14 Gen 1
 系统: Microsoft Windows 10 企业版 LTSC
@@ -17,3 +18,4 @@ MediaTek Wi-Fi 6 MT7921 Wireless LAN Card 38:D5:7A:44:EA:xx None
 TAP-Windows Adapter V9 for OpenVPN Connect 00:FF:AB:22:25:xx None
 Array Networks TAP-Windows Adapter 00:FF:F5:E9:5E:xx None
 Bluetooth Device (Personal Area Network) 38:D5:7A:44:EA:xx None
+```
