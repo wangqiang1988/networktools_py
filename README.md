@@ -3,6 +3,8 @@
 ### ping_check
 用于检测到目标站点的延迟，丢包，抖动，每分钟ping20次，每分钟生成一次结果到目标文件，按天进行汇总
 ### winsysinfo
+cookbook
+http://timgolden.me.uk/python/wmi/cookbook.html
 用于获取windows的信息,执行后打印出来信息如下：
 ```python
 型号: LENOVO_MT_20U2_BU_Think_FM_ThinkPad L14 Gen 1
