@@ -29,3 +29,6 @@ Bluetooth Device (Personal Area Network) 38:D5:7A:44:EA:XX None
 
 ### smtp
 发送邮件通知，可在一些检测的脚本中调用此模块
+
+### east_west_bandwith
+东西流量统计，把汇聚、核心交换机下联端口的端口数据信息过滤出来放入到脚本中，然后算出东西流量带宽
