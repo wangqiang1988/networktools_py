@@ -32,3 +32,32 @@ Bluetooth Device (Personal Area Network) 38:D5:7A:44:EA:XX None
 
 ### east_west_bandwith
 东西流量统计，把汇聚、核心交换机下联端口的端口数据信息过滤出来放入到脚本中，然后算出东西流量带宽
+
+
+### pubulic_ip
+判断一个地址是否是公网ip（192.168.0.0/16,172.16.0.0/12,10.0.0.0/8）
+
+### check_port
+判断设备是否打开了某个端口
+
+(bili) PS E:\SynologyDrive\python script\测试> python .\check_port.py
+Port 22 is closed on 172.16.255.1
+Port 22 is closed on 172.16.255.2
+Port 22 is closed on 172.16.255.3
+Port 22 is closed on 172.16.255.4
+
+### get_url
+
+解析google浏览器开发者模式har文件
+pip install haralyzer
+har文件与脚本放在同一个目录执行脚本
+PS E:\SynologyDrive\python script\测试> python .\url.py
+assets-global.website-files.com
+geolocation.onetrust.com
+discord.com
+www.googletagmanager.com
+ajax.googleapis.com
+global.localizecdn.com
+d3e54v103j8qbb.cloudfront.net
+www.youtube.com
+assets.website-files.com
