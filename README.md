@@ -39,7 +39,7 @@ Bluetooth Device (Personal Area Network) 38:D5:7A:44:EA:XX None
 判断一个地址是否是公网ip（192.168.0.0/16,172.16.0.0/12,10.0.0.0/8）
 
 =======
->>>>>>> 7e44143c021a2c27bc0ccd5116278d4734080b8d
+
 ### check_port
 判断设备是否打开了某个端口
 
@@ -52,9 +52,9 @@ Port 22 is closed on 172.16.255.4
 
 ### get_url
 
-解析google浏览器开发者模式har文件
+解析google浏览器开发者模式har文件，har文件与脚本放在同一个目录并执行脚本
+'''shell
 pip install haralyzer
-har文件与脚本放在同一个目录执行脚本
 PS E:\SynologyDrive\python script\测试> python .\url.py
 assets-global.website-files.com
 geolocation.onetrust.com
@@ -65,5 +65,5 @@ global.localizecdn.com
 d3e54v103j8qbb.cloudfront.net
 www.youtube.com
 assets.website-files.com
+'''
 =======
->>>>>>> 7e44143c021a2c27bc0ccd5116278d4734080b8d
