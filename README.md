@@ -33,7 +33,6 @@ Bluetooth Device (Personal Area Network) 38:D5:7A:44:EA:XX None
 ### east_west_bandwith
 东西流量统计，把汇聚、核心交换机下联端口的端口数据信息过滤出来放入到脚本中，然后算出东西流量带宽
 
-<<<<<<< HEAD
 
 ### pubulic_ip
 判断一个地址是否是公网ip（192.168.0.0/16,172.16.0.0/12,10.0.0.0/8）
