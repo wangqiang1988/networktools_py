@@ -33,10 +33,13 @@ Bluetooth Device (Personal Area Network) 38:D5:7A:44:EA:XX None
 ### east_west_bandwith
 东西流量统计，把汇聚、核心交换机下联端口的端口数据信息过滤出来放入到脚本中，然后算出东西流量带宽
 
+<<<<<<< HEAD
 
 ### pubulic_ip
 判断一个地址是否是公网ip（192.168.0.0/16,172.16.0.0/12,10.0.0.0/8）
 
+=======
+>>>>>>> 7e44143c021a2c27bc0ccd5116278d4734080b8d
 ### check_port
 判断设备是否打开了某个端口
 
@@ -45,6 +48,7 @@ Port 22 is closed on 172.16.255.1
 Port 22 is closed on 172.16.255.2
 Port 22 is closed on 172.16.255.3
 Port 22 is closed on 172.16.255.4
+<<<<<<< HEAD
 
 ### get_url
 
@@ -61,3 +65,5 @@ global.localizecdn.com
 d3e54v103j8qbb.cloudfront.net
 www.youtube.com
 assets.website-files.com
+=======
+>>>>>>> 7e44143c021a2c27bc0ccd5116278d4734080b8d
